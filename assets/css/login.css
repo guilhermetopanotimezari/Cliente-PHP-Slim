@@ -1,0 +1,84 @@
+body{
+  	background: #222;
+}
+
+#login{
+  	width:400px;
+  	margin:0 auto;
+  	margin-top:8px;
+  	margin-bottom:2%;
+  	transition:opacity 1s;
+  	-webkit-transition:opacity 1s;
+}
+
+#login h1{
+  	font-size:130%;
+  	font-weight:200;
+  	text-align:center;
+}
+
+.form{
+  	background:#f0f0f0;
+  	padding:6% 4%;
+}
+
+input[type="usuario"]{
+	width:100%;
+	background:#fff;
+	margin-bottom:4%;
+	border:1px solid #ccc;
+	padding:4%;
+	font-family:'Open Sans',sans-serif;
+	font-size:95%;
+	color:#555;
+}
+
+input[type="senha"]{
+	width:100%;
+	background:#fff;
+	margin-bottom:4%;
+	border:1px solid #ccc;
+	padding:4%;
+	font-family:'Open Sans',sans-serif;
+	font-size:95%;
+	color:#555;
+	-webkit-text-security: disc;
+}
+
+input[type="submit"]{
+	width:100%;
+	background:#337ab7;
+	border:0;
+	padding:4%;
+	font-family:'Open Sans',sans-serif;
+	font-size:100%;
+	color:#fff;
+	cursor:pointer;
+	transition:background .3s;
+	-webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  background:#286090;
+}
+#usuario.error, #senha.error{
+	border: 1px solid red;
+}
+.error-div{
+	text-align:center;
+	margin-bottom:15px;
+}
+.error-div ul{
+	list-style:none;
+  	padding: 0px;
+}
+.error-div ul li{
+	color: red;
+}
+
+
+.logo-portal {
+	margin-left: 96px;
+    height: 89px;
+    /* background: url('../imagens/logo.png') no-repeat; */
+}
